@@ -1,0 +1,19 @@
+.menu {
+  &-item {
+    border-radius: 5px;
+
+    color: #fff !important;
+    margin: 0 5px;
+    padding: 1.5rem;
+  }
+}
+.nuxt-link-exact-active {
+  background-color: #444c55;
+  border-radius: 0px;
+  transition-duration: 0.25s;
+}
+.logo {
+  .nuxt-link-exact-active {
+    background-color: #343a40 !important;
+  }
+}
